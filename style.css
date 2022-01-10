@@ -35,6 +35,49 @@ a, a:visited, a:hover, a:active{
     height: 200px;
     width: auto;
 }
+main{
+    background-image: linear-gradient(cyan,white);
+}
+
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.indeximage{
+    height: 200px;
+    width: auto;
+    border-radius: 20px;
+    transition: heigh 1s, width 1s;
+}
+
+.indeximage:hover{
+    height: 400px;
+    width: auto;
+}
+
+.ajidegallina{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.lomosaltado{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.picantedemariscos{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
 
 aside{
     background-color: #1DB8DE;

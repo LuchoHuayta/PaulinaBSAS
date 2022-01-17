@@ -1,27 +1,31 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Pagina web de restaurante Paulina cocina de mar y tierra" />
     <meta name="author" content="Lucho Huayta" />
     <meta name="keywords" content="restaurate comida peruana, restaurante peruano, restuarante peruano belgrano" />
-    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <title>Paulina - Home</title>
 </head>
-<body>  
+
+<body>
     <header>
         <nav>
-        <ul class="navegacion">
-            <li><a href="nosotros.html">Nosotros</a></li>
-            <li><a href="menu.html">Menu</a></li>
-            <li><a href="#"><img class="header__Logo" src="images/paulina-logo.png" alt="Logo Paulina"></a></li>
-            <li><a href="local.html">Local</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-        </ul>
+            <ul class="navegacion">
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="#"><img class="header__Logo" src="images/paulina-logo.png" alt="Logo Paulina"></a></li>
+                <li><a href="local.html">Local</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
         </nav>
     </header>
 
@@ -30,13 +34,46 @@
             <h3>Aji de Gallina</h3> <img class="indeximage" src="images/aji-de-gallina.jpg">
         </div>
         <div class="lomosaltado">
-            <img class="indeximage" src="images/lomo-saltado.jpg"> <h3>Lomo Saltado</h3>
+            <img class="indeximage" src="images/lomo-saltado.jpg">
+            <h3>Lomo Saltado</h3>
         </div>
         <div class="picantedemariscos">
             <h3>Picante de Mariscos</h3> <img class="indeximage" src="images/picante-de-mariscos.jpg">
         </div>
     </main>
-    
+
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+      
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/aji-de-gallina.jpg" alt="Los Angeles">
+          </div>
+          <div class="carousel-item">
+            <img src="images/lomo-saltado.jpg" alt="Chicago">
+          </div>
+          <div class="carousel-item">
+            <img src="images/picante-de-mariscos.jpg" alt="New York">
+          </div>
+        </div>
+      
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      
+      </div>
+
     <footer>
         <ul>
             <li>011 4710 1010</li>
@@ -52,10 +89,22 @@
 
         <div class="redes-sociales">
             <a href="https://www.instagram.com/paulinabsas/?hl=es" target="blank">Instagram</a>
-            <a href="https://www.pedidosya.com.ar/restaurantes/buenos-aires/paulina-cocina-de-mar-y-tierra-menu" target="blank">Pedidos Ya</a>
+            <a href="https://www.pedidosya.com.ar/restaurantes/buenos-aires/paulina-cocina-de-mar-y-tierra-menu"
+                target="blank">Pedidos Ya</a>
             <a href="#" target="blank">Rappi</a>
         </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+        integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
 <!DOCTYPE html>

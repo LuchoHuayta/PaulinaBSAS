@@ -37,7 +37,7 @@ a, a:visited, a:hover, a:active{
     width: auto;
 }
 main{
-    background-image: linear-gradient(rgb(140, 255, 255),white);
+    background-image: linear-gradient(rgb(255, 241, 214),white);
 }
 
 h3{
@@ -105,19 +105,23 @@ footer{
     align-items: center;
 }
 
-h1{
-    font-family:Arial, Helvetica, sans-serif;
+.h1-menu{
+    font-family: 'Anton', sans-serif;
     text-align: center;
-    font-weight: bold;
+    font-size: 50px;
+    letter-spacing: 3px;
     padding: 50px;
 }
 
-h2{
+.h2-menu{
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    font-size: 30px;
     padding: 10px;
+    margin-top: 30px;
 }
 
-img{
+.img-menu{
     width: 31%;
     margin: 5px;
 }
@@ -148,9 +152,41 @@ img{
     margin-bottom: 50px;
 }
 
-@media (max-width: 600px){
+.h1-local{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    padding: 50px;
+}
 
-    img{   
+.local-descripcion{
+    color: gray;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 11%;
+    margin-right: 11%;
+}
+
+.exterior{
+    width: 700px;
+}
+
+.mapa-foto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+}
+
+@media (max-width: 700px){
+
+    .img-menu{   
+        width: 100%;
+    }
+
+    .exterior{
         width: 100%;
     }
 }

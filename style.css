@@ -141,9 +141,9 @@ img{
 
 .contenedor-principales{
     display: flex;
-    flex-direction: column;
+    flex-direction: flex;
     flex-wrap: wrap;
-    max-width: none;
+    max-width: 1100px;
     margin: auto;
     margin-bottom: 50px;
 }

@@ -15,7 +15,7 @@ body{
 .navegacion{
     background-color: black;
     font-family: 'Anton', sans-serif;
-    font-size: 22px;
+    font-size: 27px;
     text-transform: uppercase;
     letter-spacing: 1px;
     
@@ -106,10 +106,16 @@ aside{
     align-items: center;
 }
 
+
+
+
 footer{
     background-color: black;
     color: aliceblue;
-    font-family: 'Readex Pro', sans-serif;
+    font-family: 'Anton', sans-serif;
+    font-size: small;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
     display: flex;
     flex-direction: row;
@@ -118,6 +124,10 @@ footer{
     align-items: center;
 }
 
+.redes__sociales{
+    display: flex;
+    flex-direction: column;
+}
 
 
 
@@ -363,8 +373,18 @@ footer{
 
 @media (max-width: 700px){
 
-    .nav_link{
-        writing-mode: vertical-lr;
+    .header__Logo{
+        height: 100px;
+        width: auto;
+    }
+
+    .navegacion{
+        letter-spacing: 0px;
+        font-size: 22px;
+    }
+
+    .mobile__deleted{
+        display: none;
     }
 
     .img-menu{   

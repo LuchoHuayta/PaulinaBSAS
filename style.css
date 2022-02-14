@@ -14,11 +14,10 @@ body{
 
 .navegacion{
     background-color: black;
-    color: aliceblue;
-    font-family: 'Readex Pro', sans-serif;
-    font-size: 20px;
-    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+    font-size: 22px;
     text-transform: uppercase;
+    letter-spacing: 1px;
     
     display: flex;
     flex-direction: row;
@@ -27,15 +26,29 @@ body{
     align-items: center;
 }
 
-a, a:visited, a:hover, a:active{
-    color: inherit;
+a, a:visited, a:active{
     text-decoration: none;
+    color: aliceblue;
 }
 
 .header__Logo{
     height: 150px;
     width: auto;
 }
+
+.nav__link{
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+}
+
+.nav__link:hover{
+    color: #2cbce0;
+}
+
+
+
+
+
 main{
     background-image: linear-gradient(rgb(255, 241, 214),white);
 }
@@ -349,6 +362,10 @@ footer{
 
 
 @media (max-width: 700px){
+
+    .nav_link{
+        writing-mode: vertical-lr;
+    }
 
     .img-menu{   
         width: 100%;

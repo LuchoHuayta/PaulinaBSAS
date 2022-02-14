@@ -8,14 +8,14 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script&family=Montserrat&family=Readex+Pro&display=swap" rel="stylesheet">    
     <title>Paulina - Nosotros</title>
 </head>
 <body>  
     <header>
         <nav>
         <ul class="navegacion">
-            <li><a href="#">Nosotros</a></li>
+            <li><a href="#">Encuesta</a></li>
             <li><a href="menu.html">Menu</a></li>
             <li><a href="index.html"><img class="header__Logo" src="images/paulina-logo.png" alt="Logo Paulina"></a></li>
             <li><a href="local.html">Local</a></li>
@@ -25,17 +25,82 @@
     </header>
 
     <main>
-        <div>
-            <h3>Historia</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam vero, soluta tenetur iure obcaecati debitis ratione laboriosam fugit quo hic enim dolor quam cumque nostrum qui beatae aliquid nam? Voluptatibus?</p>
-            <img src="images/shrimp-icon.jpg">
-        </div>
-        
-        <div>
-            <img src="images/shrimp-icon.jpg">
-            <h3>Equipo</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae libero labore repellat esse facere dolorem at veritatis ipsam architecto exercitationem nisi minima sunt perspiciatis, id quia sequi repellendus reprehenderit dicta.</p>
-        </div>
+        <h1 class="h1-encuesta">Contanos tu experiencia</h1>
+        <p class="encuesta-descripcion"">Compartinos tu opinion y participa por descuentos y sorteos</p>
+        <form>
+            <div class="encuesta-edad">
+                <p class="titulo-encuesta">Edad</p>
+
+                <input id="edad1" type="radio" name="edad" value="-18">
+                <label for="edad1">Menor de 18 años</label>
+
+                <input id="edad2" type="radio" name="edad" value="18-25">
+                <label for="edad2"> Entre 18 y 25 años</label>
+
+                <input id="edad3" type="radio" name="edad" value="26-35">
+                <label for="edad3">Entre 26 y 35 años</label>
+            
+                <input id="edad4" type="radio" name="edad" value="36-45">
+                <label for="edad4">Entre 36 y 45 años</label>
+            
+                <input id="edad5" type="radio" name="edad" value="+45">
+                <label for="edad5">Mayor de 46 años</label>
+            </div>
+
+            <div class="encuesta-plato">
+                <p class="titulo-encuesta">Plato/s Favorito/s</p>
+
+                <input id="lomo-saltado" type="checkbox" name="plato-favorito">
+                <label for="lomo-saltado">Lomo Saltado</label>
+
+                <input id="aji-gallina" type="checkbox" name="plato-favorito">
+                <label for="aji-gallina">Aji de Gallina</label>
+
+                <input id="mero-macho" type="checkbox" name="plato-favorito">
+                <label for="mero-macho">Mero a lo Macho</label>
+
+                <input id="ceviche" type="checkbox" name="plato-favorito">
+                <label for="ceviche">Ceviche</label>
+
+                <input id="aji-camarones" type="checkbox" name="plato-favorito">
+                <label for="aji-camarones">Aji de camarones</label>
+            </div>
+
+            <div class="encuesta-calidadprecio">
+                <p class="titulo-encuesta">Relacion Calidad/Precio</p>
+
+                <input id="precio1" type="radio" name="calidadprecio" value="buena">
+                <label for="precio1">Mala</label>
+
+                <input id="precio2" type="radio" name="calidadprecio" value="regular">
+                <label for="precio2"> Regular</label>
+
+                <input id="precio3" type="radio" name="calidadprecio" value="buena">
+                <label for="precio3">Buena</label>
+            
+                <input id="precio4" type="radio" name="calidadprecio" value="excelente">
+                <label for="precio4">Excelente</label>
+            
+                <input id="precio5" type="radio" name="calidad/precio" value="perfecta">
+                <label for="precio5">Perfecta</label>
+            </div>
+
+            <div class="encuesta-opinion">
+                <p class="titulo-encuesta">Comentarios extra</p>
+
+                <textarea name="comentario" cols="30" rows="5" placeholder="(opcional)"></textarea>
+            </div>
+
+            <div class="encuesta-mail">
+                <p class="titulo-encuesta">Correo</p>
+
+                <input type="email" name="comentario" placeholder="mail@ejemplo.com" required>
+            </div>
+
+            <div class="encuesta-enviar">
+                <input type="submit" value="enviar">
+            </div>
+        </form>
     </main>
 
     <footer>

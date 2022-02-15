@@ -6,10 +6,16 @@
 
 li{
     list-style: none;
+    color: aliceblue;
 }
 
 body{
-    background-color: white;
+    background-image: url("images/fondo-camaron.jpg");
+}
+
+.nav__top{
+    padding: 15px;
+    background-image: url("images/fondo-camaron.jpg");
 }
 
 .navegacion{
@@ -24,6 +30,13 @@ body{
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: center;
+
+    padding: 10px;
+}
+
+.nav__logo{
+    width: 160px;
+    position: relative;
 }
 
 a, a:visited, a:active{
@@ -32,8 +45,10 @@ a, a:visited, a:active{
 }
 
 .header__Logo{
-    height: 150px;
-    width: auto;
+    width: 160px;
+    position: absolute;
+    margin: 0 auto;
+    top: -70px;
 }
 
 .nav__link{
@@ -52,6 +67,9 @@ a, a:visited, a:active{
 main{
     background-image: linear-gradient(rgb(255, 241, 214),white);
 }
+
+
+
 
 h3{
     font-family: Verdana, Geneva, Tahoma, sans-serif
@@ -249,7 +267,7 @@ footer{
 
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     border-top: 1px solid gray;
 }
 
@@ -261,7 +279,7 @@ footer{
 
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     border-top: 1px solid gray;
 }
 
@@ -273,7 +291,7 @@ footer{
 
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     border-top: 1px solid gray;
 }
 
@@ -373,9 +391,12 @@ footer{
 
 @media (max-width: 700px){
 
+    .nav__logo{
+        width: 140px;
+    }
+
     .header__Logo{
-        height: 100px;
-        width: auto;
+        width: 140px;
     }
 
     .navegacion{

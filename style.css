@@ -1,463 +1,442 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-li{
-    list-style: none;
-    color: aliceblue;
+header li {
+  list-style: none;
+  color: aliceblue;
 }
 
-body{
-    background-image: linear-gradient(#fde7c1,white);
+header a, header a:visited, header a:active {
+  text-decoration: none;
+  color: aliceblue;
 }
 
-.nav__top{
-    padding: 15px;
-    background-image: url("images/fondo-camaron.jpg");
+body {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fde7c1), to(white));
+  background-image: linear-gradient(#fde7c1, white);
 }
 
-.navegacion{
-    background-color: black;
-    font-family: 'Anton', sans-serif;
-    font-size: 27px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    align-items: center;
-
-    padding: 10px;
+body h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.nav__logo{
-    width: 160px;
-    position: relative;
+body a, body a:visited, body a:active {
+  text-decoration: none;
+  color: aliceblue;
 }
 
-a, a:visited, a:active{
-    text-decoration: none;
-    color: aliceblue;
+body main {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fde7c1), to(white));
+  background-image: linear-gradient(#fde7c1, white);
 }
 
-.header__Logo{
-    width: 160px;
-    position: absolute;
-    margin: 0 auto;
-    top: -70px;
+footer {
+  background-color: black;
+  color: aliceblue;
+  font-family: 'Anton', sans-serif;
+  font-size: small;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.nav__link, .whatsapp__link, .map__link, .instagram__link, .rappi__link, .pedidosya__link{
-    display: inline-block;
-    transition: all 0.3s ease 0s;
+footer li {
+  list-style: none;
+  color: aliceblue;
 }
 
-.nav__link:hover{
-    color: #2cbce0;
-}
-.whatsapp__link:hover{
-    color: greenyellow;
-}
-.map__link:hover{
-    color: yellow;
-}
-.instagram__link:hover{
-    color: palevioletred;
-}
-.rappi__link:hover{
-    color: orangered;
-}
-.pedidosya__link:hover{
-    color: red;
+.nav__top {
+  padding: 15px;
+  background-image: url("images/fondo-camaron.jpg");
 }
 
-
-
-main{
-    background-image: linear-gradient(#fde7c1,white);
+.navegacion {
+  background-color: black;
+  font-family: 'Anton', sans-serif;
+  font-size: 27px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
 }
 
-
-
-
-h3{
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+.nav__logo {
+  width: 160px;
+  position: relative;
 }
 
-.indeximage{
-    height: 200px;
-    width: auto;
-    border-radius: 20px;
-    transition: heigh 1s, width 1s;
+.header__Logo {
+  width: 160px;
+  position: absolute;
+  margin: 0 auto;
+  top: -70px;
 }
 
-.indeximage:hover{
-    height: 400px;
-    width: auto;
+.nav__link, .whatsapp__link, .map__link, .instagram__link, .rappi__link, .pedidosya__link {
+  display: inline-block;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
 }
 
-.ajidegallina{
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-    padding-top: 10px;
+.nav__link:hover {
+  color: #2cbce0;
 }
 
-.lomosaltado{
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
+.whatsapp__link:hover {
+  color: greenyellow;
 }
 
-.picantedemariscos{
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 10px;
+.map__link:hover {
+  color: yellow;
 }
 
-aside{
-    background-color: #1DB8DE;
-    color: white;
-    font-family:'Courier New', Courier, monospace;
-    font-weight: bold;
-
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
+.instagram__link:hover {
+  color: palevioletred;
 }
 
-
-
-
-footer{
-    background-color: black;
-    color: aliceblue;
-    font-family: 'Anton', sans-serif;
-    font-size: small;
-    padding-top: 10px;
-    padding-bottom: 10px;
-
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    align-items: center;
+.rappi__link:hover {
+  color: orangered;
 }
 
-.redes__sociales{
-    display: flex;
-    flex-direction: column;
+.pedidosya__link:hover {
+  color: red;
 }
 
-
-
-
-
-.h1-menu{
-    font-family: 'Anton', sans-serif;
-    text-align: center;
-    font-size: 50px;
-    letter-spacing: 3px;
-    padding: 50px;
+.redes__sociales {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
-.h2-menu{
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    font-size: 30px;
-    padding: 10px;
-    margin-top: 30px;
+.h1-menu {
+  font-family: 'Anton', sans-serif;
+  text-align: center;
+  font-size: 50px;
+  letter-spacing: 3px;
+  padding: 50px;
 }
 
-.img-menu{
-    width: 31%;
-    margin: 5px;
+.h2-menu {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 30px;
+  padding: 10px;
+  margin-top: 30px;
 }
 
-.contenedor-entradas{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    max-width: 1100px;
-    margin: auto;
+.img-menu {
+  width: 31%;
+  margin: 5px;
 }
 
-.contenedor-principales{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    max-width: 1100px;
-    margin: auto;
-    margin-bottom: 50px;
+.contenedor-entradas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 1100px;
+  margin: auto;
 }
 
-.contenedor-principales{
-    display: flex;
-    flex-direction: flex;
-    flex-wrap: wrap;
-    max-width: 1100px;
-    margin: auto;
-    margin-bottom: 50px;
+.contenedor-principales {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 1100px;
+  margin: auto;
+  margin-bottom: 50px;
 }
 
-
-
-
-
-.h1-local{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 50px;
-    text-align: center;
-    font-weight: bold;
-    padding: 50px;
+.contenedor-principales {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: flex;
+          flex-direction: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 1100px;
+  margin: auto;
+  margin-bottom: 50px;
 }
 
-.local-descripcion{
-    font-family: 'Montserrat', sans-serif;
-    color: gray;
-    text-align: center;
-    font-size: 20px;
-    margin-left: 11%;
-    margin-right: 11%;
+.h1-local {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+  padding: 50px;
 }
 
-.exterior{
-    width: 700px;
+.local-descripcion {
+  font-family: 'Montserrat', sans-serif;
+  color: gray;
+  text-align: center;
+  font-size: 20px;
+  margin-left: 11%;
+  margin-right: 11%;
 }
 
-.mapa-foto{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 10px;
+.exterior {
+  width: 700px;
 }
 
-
-
-
-.h1-encuesta{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 50px;
-    text-align: center;
-    font-weight: bold;
-    padding-top: 50px;
+.mapa-foto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10px;
 }
 
-.encuesta-descripcion, .menu__descripcion{
-    font-family: 'Montserrat', sans-serif;
-    color: gray;
-    font-weight: bold;
-    text-align: center;
-    font-size: 20px;
-    margin-left: 11%;
-    margin-right: 11%;
-    margin-bottom: 40px;
+.h1-encuesta {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 50px;
 }
 
-.titulo-encuesta{
-    color: rgb(53, 52, 52);
-    font-weight: bold;
-    text-align: center;
-    font-size: 20px;
+.encuesta-descripcion, .menu__descripcion {
+  font-family: 'Montserrat', sans-serif;
+  color: gray;
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  margin-left: 11%;
+  margin-right: 11%;
+  margin-bottom: 40px;
 }
 
-.encuesta-edad{
-    padding-top: 10px;
-    padding-bottom: 30px;
-    max-width: 1100px;
-    margin: auto;
-
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    border-top: 1px solid gray;
+.titulo-encuesta {
+  color: #353434;
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
 }
 
-.encuesta-plato{
-    padding-top: 10px;
-    padding-bottom: 30px;
-    max-width: 1100px;
-    margin: auto;
-
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    border-top: 1px solid gray;
+.encuesta-edad, .encuesta-plato, .encuesta-calidadprecio {
+  padding-top: 10px;
+  padding-bottom: 30px;
+  max-width: 1100px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border-top: 1px solid gray;
 }
 
-.encuesta-calidadprecio{
-    padding-top: 10px;
-    padding-bottom: 30px;
-    max-width: 1100px;
-    margin: auto;
-
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    border-top: 1px solid gray;
+.encuesta-opinion, .encuesta-mail {
+  padding-top: 10px;
+  padding-bottom: 30px;
+  max-width: 1100px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-top: 1px solid gray;
 }
 
-.encuesta-opinion{
-    padding-top: 10px;
-    padding-bottom: 30px;
-    max-width: 1100px;
-    margin: auto;
-
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:center;
-    border-top: 1px solid gray;
+.encuesta-enviar {
+  padding-top: 10px;
+  padding-bottom: 30px;
+  max-width: 1100px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.encuesta-mail{
-    padding-top: 10px;
-    padding-bottom: 30px;
-    max-width: 1100px;
-    margin: auto;
-
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:center;
-    border-top: 1px solid gray;
+.h1-nosotros {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+  padding: 40px;
 }
 
-.encuesta-enviar{
-    padding-top: 10px;
-    padding-bottom: 30px;
-    max-width: 1100px;
-    margin: auto;
-
-    display: flex;
-    justify-content: center;
+.contenedor-objetivo {
+  max-width: 1100px;
+  margin: auto;
+  padding-bottom: 20px;
+  border-bottom: 1px solid gray;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-
-
-
-.h1-nosotros{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 50px;
-    text-align: center;
-    font-weight: bold;
-    padding: 40px;
+.contenedor-equipo {
+  max-width: 1100px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-
-.contenedor-objetivo{
-    max-width: 1100px;
-    margin: auto;
-    padding-bottom: 20px;
-    border-bottom: 1px solid gray;
-
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+.objetivo-equipo {
+  font-size: 30px;
+  color: #302e2e;
 }
 
-.contenedor-equipo{
-    max-width: 1100px;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 30px;
-
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+.texto-nosotros {
+  font-family: 'Montserrat', sans-serif;
+  color: gray;
+  font-size: 20px;
+  width: 50%;
+  text-align: center;
+  padding: 15px;
 }
 
-.objetivo-equipo{
-    font-size: 30px;
-    color: rgb(48, 46, 46);
+.img-nosotros {
+  width: 50%;
 }
 
-.texto-nosotros{
-    font-family: 'Montserrat', sans-serif;
-    color: gray;
-    font-size: 20px;
-    width: 50%;
-    text-align: center;
-    padding: 15px;
-}
-
-.img-nosotros{
-    width: 50%;
-}
-
-
-
-
-
-@media (max-width: 700px){
-
-    .nav__logo{
-        width: 140px;
-    }
-
-    .header__Logo{
-        width: 140px;
-    }
-
-    .navegacion{
-        letter-spacing: 0px;
-        font-size: 22px;
-    }
-
-    .mobile__deleted{
-        display: none;
-    }
-
-    .img-menu{   
-        width: 100%;
-    }
-
-    .exterior{
-        width: 100%;
-    }
-
-    .encuesta-edad{
-        flex-direction: column;
+@media (max-width: 700px) {
+  .nav__logo {
+    width: 140px;
+  }
+  .header__Logo {
+    width: 140px;
+  }
+  .navegacion {
+    letter-spacing: 0px;
+    font-size: 22px;
+  }
+  .mobile__deleted {
+    display: none;
+  }
+  .img-menu {
+    width: 100%;
+  }
+  .exterior {
+    width: 100%;
+  }
+  .encuesta-edad {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-line-pack: center;
         align-content: center;
-    }
-
-    .encuesta-plato{
-        flex-direction: column;
+  }
+  .encuesta-plato {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-line-pack: center;
         align-content: center;
-    }
-
-    .encuesta-calidadprecio{
-        flex-direction: column;
+  }
+  .encuesta-calidadprecio {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-line-pack: center;
         align-content: center;
-    }
-
-    .encuesta-opinion{
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-
-    .img-nosotros{
-        width: 90%;
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-
-    .texto-nosotros{
-        width: 90%;
-        margin-left: 5%;
-        margin-right: 5%;
-    }
+  }
+  .encuesta-opinion {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .img-nosotros {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .texto-nosotros {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
 }
+/*# sourceMappingURL=style.css.map */

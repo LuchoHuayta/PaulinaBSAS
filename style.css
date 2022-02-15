@@ -10,7 +10,7 @@ li{
 }
 
 body{
-    background-image: url("images/fondo-camaron.jpg");
+    background-image: linear-gradient(#fde7c1,white);
 }
 
 .nav__top{
@@ -51,7 +51,7 @@ a, a:visited, a:active{
     top: -70px;
 }
 
-.nav__link{
+.nav__link, .whatsapp__link, .map__link, .instagram__link, .rappi__link, .pedidosya__link{
     display: inline-block;
     transition: all 0.3s ease 0s;
 }
@@ -59,13 +59,26 @@ a, a:visited, a:active{
 .nav__link:hover{
     color: #2cbce0;
 }
-
-
+.whatsapp__link:hover{
+    color: greenyellow;
+}
+.map__link:hover{
+    color: yellow;
+}
+.instagram__link:hover{
+    color: palevioletred;
+}
+.rappi__link:hover{
+    color: orangered;
+}
+.pedidosya__link:hover{
+    color: red;
+}
 
 
 
 main{
-    background-image: linear-gradient(rgb(255, 241, 214),white);
+    background-image: linear-gradient(#fde7c1,white);
 }
 
 
@@ -241,7 +254,7 @@ footer{
     padding-top: 50px;
 }
 
-.encuesta-descripcion{
+.encuesta-descripcion, .menu__descripcion{
     font-family: 'Montserrat', sans-serif;
     color: gray;
     font-weight: bold;
